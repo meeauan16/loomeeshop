@@ -9,7 +9,7 @@
 	$conn = mysqli_connect($server,$username,$password,$db);
 	$sql = 'select * from member';
 	$query = mysqli_query($conn,$sql);
-
+	$re ='love 555' ;
 	
 
  ?>
