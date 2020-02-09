@@ -1,17 +1,6 @@
 <?php
 	session_start();
-
-	$server = '127.0.0.1';
-	$username = 'root';
-	$password = '';
-	$db = 'lookmeeshop';
-
-	$conn = mysqli_connect($server,$username,$password,$db);
-	$sql = 'select * from member';
-	$query = mysqli_query($conn,$sql);
-
-	
-
+	include 'php/connectdb.php';
  ?>
 
 <!DOCTYPE html>
