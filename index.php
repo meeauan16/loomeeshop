@@ -4,6 +4,7 @@
 
 	$sql = "select * from member";
 	$query = mysqli_query($conn,$sql);
+	$re ='test'
  ?>
 
 <!DOCTYPE html>
