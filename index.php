@@ -70,7 +70,7 @@
 				<td><?php echo $query['mem_name']; ?></td>
 				<td><?php echo $query['sex']; ?></td>
 			</tr>
-			<?php } ?>
+			<?php }; ?>
 		</table>
 </body>
 </html>
