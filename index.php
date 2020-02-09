@@ -1,6 +1,9 @@
 <?php
 	session_start();
 	include 'php/connectdb.php';
+
+	$sql = "select * from member";
+	$query = mysqli_query($conn,$sql);
  ?>
 
 <!DOCTYPE html>
