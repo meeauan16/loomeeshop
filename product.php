@@ -11,6 +11,7 @@
 <html>
 	<head>
 		<title>Lookmeeshop : สินค้า </title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 	</head>
 
     <body>
