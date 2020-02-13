@@ -12,6 +12,7 @@
 	<head>
 		<title>Lookmeeshop : สินค้า </title>
 		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<?php include 'php/head.php' ?>
 	</head>
 
     <body>
