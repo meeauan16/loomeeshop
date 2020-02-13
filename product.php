@@ -29,7 +29,7 @@
 			</ul>
 		</div>
 	
-		<div class="row">
+		<div class="container">
 		<h3>สินค้า</h3>
 			<section>
 				<h4>ตุ๊กตา</h4>
