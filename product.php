@@ -51,7 +51,7 @@
 					<form action="details.php" method="get">
 						<div class="col-sm-3" style="padding-top: 20px;">
 							<div class="card" style="width: 18rem;">
-								<img src="pic/<?php echo $result['picture'] ?> " class="card-img-top" style="width: 150px; hight:50px">
+								<img src="pic/<?php echo $result['picture'] ?> " class="card-img-top" style="width: 150px; height:50px">
 								<div class="card-body">
 								<p class="card-text"><?php echo $result['brand'] ?>&nbsp; <?php echo $result['pro_name'] ?><br>
 								ราคา : <?php echo $result['price'] ?></p>
