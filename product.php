@@ -4,6 +4,30 @@
 
 	$sql = "select * from product where type = 'ตุ๊กตา'";
 	$query = mysqli_query($conn,$sql);
+
+	$sql1 = "select * from product where type = 'พวงกุญแจ";
+	$query1 = mysqli_query($conn,$sql1);
+
+	$sql2 = "select * from product where type = 'กระเป๋า";
+	$query = mysqli_query($conn,$sql2);
+
+	$sql3 = "select * from product where type = 'หมอนผ้าห่ม";
+	$query = mysqli_query($conn,$sql3);
+
+	$sql4 = "select * from product where type = 'โคมไฟ";
+	$query = mysqli_query($conn,$sql4);
+
+	$sql5 = "select * from product where type = 'ถุงเท้า";
+	$query = mysqli_query($conn,$sql5);
+
+	$sql6 = "select * from product where type = 'แก้ว";
+	$query = mysqli_query($conn,$sql6);
+
+	$sql7 = "select * from product where type = 'เข็มกลัด";
+	$query = mysqli_query($conn,$sql7);
+
+	$sql8 = "select * from product where type = 'รองเท้า";
+	$query = mysqli_query($conn,$sql8);
  ?>
 
 <!-- HTML Zone  -->
@@ -58,12 +82,8 @@
 
 			<section id="2">
 				<h4>พวงกุญแจ</h4>
-				<?php
-					$sql = "select * from product where type = 'พวงกุญแจ";
-					$query = mysqli_query($conn,$sql);
-				?>
 				<hr>
-				<?php foreach($query as $result){ ?>
+				<?php foreach($query1 as $result){ ?>
 					<form action="details.php" method="get">
 						<div class="col-sm-3" style="padding-top: 20px;">
 							<div class="card" style="width: 18rem;">
@@ -82,12 +102,8 @@
 
 			<section id="3">
 				<h4>กระเป๋า</h4>
-				<?php
-					$sql = "select * from product where type = 'กระเป๋า";
-					$query = mysqli_query($conn,$sql);
-				?>
 				<hr>
-				<?php foreach($query as $result){ ?>
+				<?php foreach($query2 as $result){ ?>
 					<form action="details.php" method="get">
 						<div class="col-sm-3" style="padding-top: 20px;">
 							<div class="card" style="width: 18rem;">
@@ -106,12 +122,8 @@
 
 			<section id="4">
 				<h4>หมอนผ้าห่ม</h4>
-				<?php
-					$sql = "select * from product where type = 'หมอนผ้าห่ม";
-					$query = mysqli_query($conn,$sql);
-				?>
 				<hr>
-				<?php foreach($query as $result){ ?>
+				<?php foreach($query3 as $result){ ?>
 					<form action="details.php" method="get">
 						<div class="col-sm-3" style="padding-top: 20px;">
 							<div class="card" style="width: 18rem;">
@@ -130,12 +142,8 @@
 
 			<section id="5">
 				<h4>โคมไฟ</h4>
-				<?php
-					$sql = "select * from product where type = 'โคมไฟ";
-					$query = mysqli_query($conn,$sql);
-				?>
 				<hr>
-				<?php foreach($query as $result){ ?>
+				<?php foreach($query4 as $result){ ?>
 					<form action="details.php" method="get">
 						<div class="col-sm-3" style="padding-top: 20px;">
 							<div class="card" style="width: 18rem;">
@@ -154,12 +162,8 @@
 
 			<section id="6">
 				<h4>ถุงเท้า</h4>
-				<?php
-					$sql = "select * from product where type = 'ถุงเท้า";
-					$query = mysqli_query($conn,$sql);
-				?>
 				<hr>
-				<?php foreach($query as $result){ ?>
+				<?php foreach($query5 as $result){ ?>
 					<form action="details.php" method="get">
 						<div class="col-sm-3" style="padding-top: 20px;">
 							<div class="card" style="width: 18rem;">
@@ -178,12 +182,8 @@
 
 			<section id="7">
 				<h4>แก้ว</h4>
-				<?php
-					$sql = "select * from product where type = 'แก้ว";
-					$query = mysqli_query($conn,$sql);
-				?>
 				<hr>
-				<?php foreach($query as $result){ ?>
+				<?php foreach($query6 as $result){ ?>
 					<form action="details.php" method="get">
 						<div class="col-sm-3" style="padding-top: 20px;">
 							<div class="card" style="width: 18rem;">
@@ -202,12 +202,8 @@
 
 			<section id="8">
 				<h4>เข็มกลัด</h4>
-				<?php
-					$sql = "select * from product where type = 'เข็มกลัด";
-					$query = mysqli_query($conn,$sql);
-				?>
 				<hr>
-				<?php foreach($query as $result){ ?>
+				<?php foreach($query7 as $result){ ?>
 					<form action="details.php" method="get">
 						<div class="col-sm-3" style="padding-top: 20px;">
 							<div class="card" style="width: 18rem;">
@@ -225,13 +221,9 @@
 			</section>
 
 			<section id="9">
-				<h4>โคมไฟ</h4>
-				<?php
-					$sql = "select * from product where type = 'รองเท้า";
-					$query = mysqli_query($conn,$sql);
-				?>
+				<h4>รองเท้า</h4>
 				<hr>
-				<?php foreach($query as $result){ ?>
+				<?php foreach($query9 as $result){ ?>
 					<form action="details.php" method="get">
 						<div class="col-sm-3" style="padding-top: 20px;">
 							<div class="card" style="width: 18rem;">
