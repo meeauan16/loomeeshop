@@ -2,8 +2,17 @@
 	session_start();
 	include 'php/connectdb.php';
 
-	$sql = "select * from product";
-	$query = mysqli_query($conn,$sql);
+	if(empty($_GET['search'])){
+        $sql = "select * from product";
+        $result = mysqli_query($conn,$sql);
+        if (!$result) die('Query error: ');
+    } else {
+        $search = $_GET['search'];
+        $s = '%'.$search.'%';
+        $sql = "select * from product where type = '$s' OR pro_name LIKE '$s'";
+        $result = mysqli_query($conn,$sql);
+        if (!$result) die('Query error: ');
+    }
  ?>
 
 <!-- HTML Zone  -->
