@@ -45,20 +45,9 @@
 </head>
 <body>
 
-	<div> 
-		<ul>
-			<li><a href="index.php">หน้าแรก</a></li>
-			<li><a href="product.php">สินค้า</a></li>
-			<li><a href="about.php">เกี่ยวกับเรา</a></li>
-			<li><a href="contact.php">ติดต่อเรา</a></li>
-
-			<li id="login"><a href="register.php">สมัครสมาชิก</a></li>
-			<li id="login"><a href="contact.php">ล็อคอิน</a></li>
-			
-		</ul>
-	</div>
+<?php include 'php/menu.php' ?>
 		<h1>โปรดกรอกข้อมูลเพื่อสมัครสมาชิก</h1> <br>
-		<form action="reg.php" method="POST">
+		<form action="php/reg.php" method="POST">
 			<table>
 				<tr>
 					<td>
